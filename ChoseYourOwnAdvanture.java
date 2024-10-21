@@ -2,7 +2,7 @@
 //chose your own advanture plane flying simulator 
 import java.util.Scanner;
 
-public class choseYourOwnAdvanture {
+public class ChoseYourOwnAdvanture {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String beginingText = "Welcome to my chose your own adventure where you get to test your skills with 1 or 2. Good Luck!!";
