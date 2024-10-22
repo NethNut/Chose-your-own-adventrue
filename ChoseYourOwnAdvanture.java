@@ -9,12 +9,12 @@ public class ChoseYourOwnAdvanture {
         String planeText = "You are in your private jet flying in the co pilot seat when all the suden the captin just colapses while stearing";
         System.out.println(beginingText);
         System.out.println(planeText);
-        System.out.println("do you Take the stering yolk? 1 or let let it be 2?");
+        System.out.println("do you Take the stering yoke? 1 or let let it be 2?");
         String userInput = sc.nextLine();
         if (userInput.equals("1")) {
-            System.out.println("you take the yolk 1 or do you try to keep the yolk steady 2?");
+            System.out.println("do you keep the yoke steady 1 or do you try to move the yoke to steer 2?");
             userInput = sc.nextLine();
-            if (userInput.equals("2")) {
+            if (userInput.equals("1")) {
                 System.out.println("You spoted a runway do you either 1 fly over or 2 try to contact the radio");
                 userInput = sc.nextLine();
                 if (userInput.equals("2")) {
@@ -24,7 +24,7 @@ public class ChoseYourOwnAdvanture {
                     if (userInput.equals("1")) {
                         System.out.println("you wait for permision to land the plane fling in circles");
                         System.out.println(
-                                "you get the signal to land but they tell you thier is crosswind do you 1 land into the crosswing or 2 land aganst the crosswind");
+                                "you get the signal to land but they tell you their is crosswind do you 1 land into the crosswind or 2 land with the crosswind behind you");
                         userInput = sc.nextLine();
                         if (userInput.equals("1")) {
                             System.err
